@@ -1,0 +1,76 @@
+/* Colors and fonts */
+body {
+	background: rgb(118, 100, 87);
+	color: rgb(18, 20, 32);
+	font-family: 'Playfair Display', serif;
+	font size: 16 px;
+} 
+
+h1 {
+	font-weight: 800;
+}
+
+a{
+	color: rgb(18, 20, 32);
+	text-decoration: none;
+	transition: color 0.3s ease;
+	}
+a:hover{
+	color: rgb(132, 89, 107);
+	text text-decoration: none;
+	}	
+
+/* Custom design and class*/
+.container {
+	
+}
+.card-white {
+	width: 700px;
+	margin: 20px 0px;
+	background-color: rgb(248, 244, 227);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
+
+.img-circle {
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div {
+width: fit-content;     
+margin: 0px auto;
+}
+
+li {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+ li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 90px; /* add som left/right padding between list items */
+  font-size: 30px;
+}

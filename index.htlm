@@ -1,0 +1,71 @@
+<!DOCTYPE htlm>
+<htlm>
+	
+	<head>
+		<title>Léonore Rouzier's profile</title>
+		<meta name="description" content="This is the profile of Léonore">
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/d7e0beb67b.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	  
+	  <div class="container">
+			<div class="card-white">
+			 <h1>Hi, I'm Léonore !</h1>
+			</div>
+
+			<div> 
+			 <img src="images/photo wei.jpg" class="img-circle" alt="Léonore Rouzier">
+			</div>
+			
+			<div class="card-white">
+			 <p>
+			 Here are my designs...
+			 </p>
+			<a href="" target="_blank">Discover my designs</a>
+			</div>
+		
+			<div class= "card-white">
+			 <h2>Drawing & Procreate</h2>
+			 <p>
+			 I enjoy spent time drawing, designing on procreate
+			 <i class="fa-solid fa-pencil"></i>
+			 </p>
+			</div> 
+			
+			<div class= "card-white">
+			 <h2>Music</h2>
+			 <p>
+			 I love listening music during my spare time, usually RNB...
+			 <i class="fa-solid fa-music"></i>
+			 </p>
+			</div>
+			
+			<div class= "card-white">
+			 <h2>Basketball</h2>
+			 <p>
+			 I am eager of basketball, playing but also watching, in fact I am a fan of the NBA league and of Ja Morant ! 
+			 <i class="fa-solid fa-basketball"></i>
+			 </p>
+			</div>
+		
+			<div class= "card-white">
+			 <h2>Follow me on socials</h2>
+			 <ul>
+				<li>
+					<a href="https://www.facebook.com/profile.php?id=100069943129973"><i class="fa-brands fa-facebook"></i></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/l%C3%A9onore-rouzier-ba024520b/"><i class="fa-brands fa-linkedin"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/_leonore_r/"><i class="fa-brands fa-instagram-square"></i></a>
+				</li>
+			</div>
+	  </div>
+	</body>
+</htlm>
